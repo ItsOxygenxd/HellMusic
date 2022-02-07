@@ -245,8 +245,8 @@ async def play(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/VEXERA_UPDATES"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/SNEHABHI_SERVER")
+                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/V3n0m_0p"),
+                            InlineKeyboardButton("💭 Support", url=f"https://t.me/v3nom_support")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
@@ -256,7 +256,7 @@ async def play(c: Client, m: Message):
             )
         else:
             suhu = await m.reply_text(
-        f"**VEXERA Downloader**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
+        f"**VENOM SerVeR Downloader**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
     )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
